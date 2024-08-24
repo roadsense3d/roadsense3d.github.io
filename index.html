@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+    <meta property="og:url" content="URL OF THE WEBSITE"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>RoadSense3D</title>
+    <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-4 publication-title">Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection </h1>
+                     <div class="is-size-5 publication-authors">
+                        <!--                      Paper authors-->
+                         <span class="author-block">
+                        <a href="https://www.linkedin.com/in/sondos-mohamed-09901a80/" target="_blank">Sondos Mohamed</a><sup>1*</sup>,</span>
+                        <span class="author-block">
+                            <a href="https://walzimmer.github.io/website" target="_blank">Walter Zimmer</a><sup>2*</sup>,
+                          </span>
+                         <span class="author-block">
+                            <a href="https://www.rossgreer.com/" target="_blank">Ross Greer</a><sup>3</sup>,
+                          </span>
+                         <span class="author-block">
+                        <a href="https://www.linkedin.com/in/aaghita/" target="_blank">Ahmed Alaaeldin Ghita</a><sup>2</sup>,</span>
+                        <span class="author-block">
+                        <a href="https://www.linkedin.com/in/modesto-castrill%C3%B3n-santana-a8298321/" target="_blank">Modesto Castrillón-Santana</a><sup>4</sup>,</span>
+
+                        <span class="author-block">
+                            <a href="https://jacobsschool.ucsd.edu/node/3464" target="_blank">Mohan M. Trivedi</a><sup>5</sup>,
+                          </span>
+                        <span class="author-block">
+                            <a href="https://www.ce.cit.tum.de/air/people/prof-dr-ing-habil-alois-knoll/" target="_blank">Alois C. Knoll</a><sup>2</sup>,
+                          </span>
+                         <span class="author-block">
+                            <a href="https://aibd.unica.it/people/salvatore-carta" target="_blank">Salvatore Mario Carta</a><sup>1</sup>,
+                          </span>
+                         <span class="author-block">
+                            <a href="https://www.mirkomarras.com/" target="_blank">Mirko Marras</a><sup>1</sup>,
+                          </span>
+                    </div>
+                       <div class="is-size-5 publication-authors">
+
+                        <span class="author-block"><sup>1</sup>University of Cagliari, <sup>2</sup>Technical University of Munich (TUM), <sup>3</sup>University of California Merced (UCM), <sup>4</sup>Universidad de Las Palmas de Gran Canaria, <sup>5</sup>University of California San Diego (UCSD) <br>ECVA European Computer Vision Conference (ECCV'24)</span>
+                        <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    </div>
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                             <span class="link-block">
+                              <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                              class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                <i class="fas fa-file-pdf"></i>
+                                </span>
+                                <span>Paper</span>
+                              </a>
+                            </span>
+                            <!-- Github link -->
+                            <span class="link-block">
+                                <a href="https://github.com/roadsense3d/roadsense3d" target="_blank"
+                                   class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <span>Code</span>
+                                </a>
+                            </span>
+                             <!-- Dataset link -->
+                            <span class="link-block">
+                            <a href="https://roadsense3d.com" target="_blank"
+                               class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                              <i class="fa fa-database"></i>
+                            </span>
+                            <span>Dataset</span>
+                            </a>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- title figure -->
+<!--<section class="hero teaser">-->
+<!--    <div class="container is-8">-->
+<!--        <div class="hero-body">-->
+<!--            <div class="item">-->
+<!--                <img src="static/images/image.jpg" alt="title_figure"/>-->
+<!--                <h5>caption.</h5>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<!-- Overview  -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Overview</h2>
+                <div class="content">
+                    <strong>RoadSense3D</strong> is a large-scale synthetic dataset covering roadside scenarios.
+                    It contains 1.4 million labeled camera frames with 9 million labeled 3D traffic participants recorded in the CARLA simulator.<br><br>
+                    In summary:
+                    <ul>
+                        <li> The RoadSense3D dataset consists of labeled traffic scenarios recorded at various lighting and weather conditions such.</li>
+                        <li> We provide an in-depth comparison of state-of-the-art monocular 3D object detection methods.</li>
+                        <li> We extend the Cube R-CNN model to make it compatible with various datasets.</li>
+                        <li> We develop domain adaptation methods to improve generalization.</li>
+                        <li> We perform extensive transfer learning experiments and ablation studies on the RoadSense3D dataset, the TUM Traffic datasets, and the DAIR-V2X dataset.</li>
+                        <li> We open-source our code and dataset and provide some qualitative video results.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End overview -->
+
+<section class="section hero">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>Accurately detecting 3D objects from monocular images in
+dynamic roadside scenarios remains a challenging problem due to varying
+camera perspectives and unpredictable scene conditions. This paper
+introduces a two-stage training strategy to address these challenges. Our
+approach initially trains a model on the large-scale synthetic dataset,
+RoadSense3D, which offers a diverse range of scenarios for robust feature
+learning. Subsequently, we fine-tune the model on a combination
+of real-world datasets (TUM Traffic A9 Highway and DAIR-V2X-I) to enhance its adaptability
+to practical conditions. Experimental results of the Cube R-CNN
+model on challenging public benchmarks show a significant improvement
+in detection performance, with a mean average precision rising from 0.26
+to 12.76 on the TUMTraf-A9 dataset and from 2.09 to 6.60
+on the DAIR-V2X-I dataset, when performing transfer learning. Code,
+data, and qualitative video results are available on the project website: <a
+                                href="https://roadsense3d.github.io">https://roadsense3d.github.io</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<section class="section hero is-light">-->
+<!--    <div class="container is-max-desktop">-->
+<!--        <div class="columns">-->
+<!--            <div class="column is-four-fifths">-->
+
+<!-- Qualitative Results  -->
+<section class="section hero teaser">
+    <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
+        <div class="hero-body">
+            <div class="item">
+                <img src="static/images/carla_1.png" alt="title_figure"/>
+                <h5 class="is-3 has-text-centered"><strong>Qualitative results of Cube R-CNN on the synthetic RoadSense3D test set.</strong><br>
+                    We show 3D box detections of the Cube R-CNN model in the class-specific colors during different lighting and weather conditions.</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section hero teaser">
+    <div class="container is-8">
+        <div class="hero-body">
+            <div class="item">
+                <img src="static/images/real_A9_last1.png" alt="title_figure"/>
+                <h5 class="is-3 has-text-centered"><strong>Qualitative results of Cube R-CNN on the TUMTraf-A9 test set.</strong> The Cube R-CNN was model trained from scratch on TUMTraf-A9 training set and evaluated on the TUMTraf-A9 test set.</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section hero teaser">
+    <div class="container is-8">
+        <div class="hero-body">
+            <div class="item">
+                <img src="static/images/rea_a9_synthetic_last.png" alt="title_figure"/>
+                <h5 class="is-3 has-text-centered"><strong>Qualitative results of Cube R-CNN and transfer learning.</strong> The Cube
+R-CNN model was pre-trained on RoadSense3D, fine-tuned on TUMTraf-A9 training set and evaluated on TUMTraf-A9 test set.</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section hero teaser">
+    <h3 class="title is-8 has-text-centered">Quantitative Results</h3>
+    <div class="container is-centered">
+        <table class="table is-centered center">
+            <thead>
+            <tr>
+                <th>Architecture</th>
+                <th>Pre-Train Set</th>
+                <th>Fine-Tuning Set</th>
+                <th>Evaluation Set</th>
+                <th colspan="3">Difficulty Level</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Cube R-CNN</td>
+                <td>TUMTraf-A9 Train</td>
+                <td>-</td>
+                <td>TUMTraf-A9 Test</td>
+                <td>0.26</td>
+                <td>0.26</td>
+                <td>0.26</td>
+            </tr>
+            <tr>
+                <td>Cube R-CNN</td>
+                <td>RoadSense3D Train</td>
+                <td>TUMTraf-A9 Train</td>
+                <td>TUMTraf-A9 Test</td>
+                <td><strong>12.76</strong></td>
+                <td><strong>12.76</strong></td>
+                <td><strong>12.76</strong></td>
+            </tr>
+            </tbody>
+        </table>
+        <h5 class="is-3 has-text-centered">
+            <strong>Single-Step Dataset Transfer on TUMTraf-A9.</strong> We report the 3D mean average
+precision across the easy, moderate, and hard difficulty levels. Transfer learning involves
+pre-training on the synthetic RoadSense3D dataset and fine-tuning on the real-world TUMTraf-A9 dataset.
+        </h5>
+    </div>
+</section>
+
+<section class="section hero teaser">
+    <div class="container is-centered">
+        <table class="table is-centered center">
+            <thead>
+            <tr>
+                <th>Architecture</th>
+                <th>Pre-Train Set</th>
+                <th>Fine-Tuning Set</th>
+                <th>Evaluation Set</th>
+                <th colspan="3">Difficulty Level</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Cube R-CNN</td>
+                <td>DAIR-V2X-I Train</td>
+                <td>-</td>
+                <td>DAIR-V2X-I Test</td>
+                <td>2.09</td>
+                <td>2.62</td>
+                <td>2.61</td>
+            </tr>
+            <tr>
+                <td>Cube R-CNN</td>
+                <td>RoadSense3D Train</td>
+                <td>DAIR-V2X-I Train</td>
+                <td>DAIR-V2X-I Test</td>
+                <td><strong>6.60</strong></td>
+                <td><strong>8.60</strong></td>
+                <td><strong>8.65</strong></td>
+            </tr>
+            </tbody>
+        </table>
+        <h5 class="is-3 has-text-centered">
+            <strong>Single-Step Dataset Transfer on DAIR-V2X-I.</strong> We report the 3D mean average precision across the easy, moderate, and hard difficulty levels.
+            Transfer learning involves pre-training on the synthetic RoadSense3D dataset and fine-tuning on the real-world DAIR-V2X-I dataset.
+        </h5>
+    </div>
+</section>
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+@inproceedings{ahmed2024transfer,
+    location = {Milan, Italy},
+    title = {Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection},
+    pages = {19},
+    booktitle={Proceedings of the 18th European Conference on Computer Vision ECCV 2024},
+    organization={Springer},
+    publisher = {Springer-Verlag},
+    author = {Mohamed, Sondos and Zimmer, Walter and Greer, Ross and Alaaeldin Ghita, Ahmed and Castrillón-Santana, Modesto and Trivedi, Mohan M. and Knoll, Alois C. and Carta, Salvatore Mario and Marras, Mirko},
+    date = {2024-09-30}
+}
+    </code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content has-text-centered">
+                    <p>
+                        The <strong>RoadSense3D</strong> dataset is licensed under <a
+                            href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA
+                        4.0</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
